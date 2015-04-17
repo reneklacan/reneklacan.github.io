@@ -4,6 +4,7 @@ title:      My journey from Awesome Linux to MacOS
 date:       2015-01-08 00:00:07
 summary:
 categories: personal
+image:      IMG_20130922_191559_imp-800x600.jpg
 ---
 
 My Linux journey started during first year of high school when I heard about it and was wondering how it is different from Windows. I didn’t even had a internet connection so I had to convince my friend with amazing DSL internet to download an ISO of Mandriva Linux for me. Installed it on my Pentium D as soon as I burned it and I started exploring secrets of Linux. I found out that I have nothing to do because I wasn’t able to install any game and sound was working just randomly. I was also very bothered by fact that my home folder was being constantly filled with some weird files and folders starting with dot so deleted them every time I had a chance. I also had an issue with my configurations reseting back to defaults. Who knows why? So I returned back to Windows.

@@ -4,6 +4,7 @@ title:      Elasticsearch tips you might not know
 date:       2015-02-07 00:00:07
 summary:
 categories: elasticsearch
+image:      elasticsearch-logo.jpg
 ---
 
 ### 1. Routing

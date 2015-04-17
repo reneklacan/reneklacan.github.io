@@ -89,6 +89,16 @@ body {
   opacity: 0.88;
 }
 
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  margin: 1em 0 0.5em 0;
+}
+
+.post-image-container {
+  text-align: center;
+}
+
 /*
   Table styles copied from Bootstrap
   Copyright (c) 2013 Twitter, Inc
@@ -295,22 +305,12 @@ blockquote footer {
   border-color: transparent;
 }
 
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 900;
   line-height: 1.2;
-  margin: 1em 0 0.5em;
+  margin: 0em 0 0.0em;
 }
 
 .social-icons {
@@ -338,8 +338,6 @@ h6,
 
   .meta,
   .post-meta {
-    margin: 0;
-    padding: 0;
     font-size: 1.25rem;
   }
 
@@ -447,25 +445,25 @@ h6,
 @media screen and (min-width: 64em) {
   .h1,
   h1 {
-    font-size: 4.498rem;
+    font-size: 3.0rem;
   }
 
   .h2,
   h2 {
-    font-size: 3.18rem;
+    font-size: 2.4rem;
   }
 
   .h3,
   h3 {
-    font-size: 2.249rem;
+    font-size: 2.0rem;
   }
 
   .h4,
   h4 {
-    font-size: 1.591rem;
+    font-size: 1.5rem;
   }
 
-  .posts .post-meta {
+  .post-meta {
     padding-bottom: .2em;
   }
 
@@ -511,67 +509,4 @@ footer .wrap {
 footer:after {
   content: "";
   display: block;
-}
-
-@charset "UTF-8";
-
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2014 Daniel Eden
-*/
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-.animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-
-.animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-}
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-
-    -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
-        -ms-transform: translateY(-20px) translate3d(0, 0, 0);
-            transform: translateY(-20px) translate3d(0, 0, 0);
-  }
-
-  100% {
-    opacity: 1;
-
-    -webkit-transform: translateY(0) translate3d(0, 0, 0);
-        -ms-transform: translateY(0) translate3d(0, 0, 0);
-            transform: translateY(0) translate3d(0, 0, 0);
-  }
-}
-
-.fade-in-down {
-  -webkit-animation-name: fadeInDown;
-          animation-name: fadeInDown;
 }

@@ -4,6 +4,7 @@ title:      Destroyable terrain trees in Unity
 date:       2014-10-28 00:00:07
 summary:
 categories: unity3d games
+image:      trees-800x413.png
 ---
 
 To achieve destroyable terrain trees there is a little trick. You have to use trees without colliders and then create colliders dynamically from editor or at the start of runtime.

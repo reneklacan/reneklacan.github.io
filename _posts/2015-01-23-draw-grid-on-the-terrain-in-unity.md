@@ -4,6 +4,7 @@ title:      Draw grid on the terrain in Unity
 date:       2015-01-23 00:00:07
 summary:
 categories: unity3d games
+image:      grid-800x422.png
 ---
 
 Drawing grid on the terrain is used in lot of game genres – RTS, Simulation, Tower defense, etc. It can be done very easily in Unity.
