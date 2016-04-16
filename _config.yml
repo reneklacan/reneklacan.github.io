@@ -40,6 +40,7 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
+gems:         [jekyll-paginate]
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
